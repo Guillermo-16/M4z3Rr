@@ -18,22 +18,38 @@ header {
 
 .side-menu {
   position: fixed;
-  left: 0;
-  top: 40%;
-  transform: rotate(-90deg) translateX(-50%);
-  transform-origin: left top;
-
+  top: 0; /* Pegado al borde superior */
+  left: 0; /* Pegado al borde izquierdo */
+  height: 100vh; /* Ocupa toda la altura de la ventana */
   display: flex;
+  transform: rotate(-90deg) translateX(-100%);
+  transform-origin: top left;
   gap: 30px;
-
   font-family: sans-serif;
   z-index: 1000;
+  letter-spacing: 3px;
+  padding: 0 20px;
+  background: transparent; /* o puedes poner un color si quieres */
 }
 
 .side-menu a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+/* Responsivo para móviles */
+@media (max-width: 768px) {
+  .side-menu {
+    transform: rotate(0deg) translateX(0);
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    height: auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+  }
 }
 
 .box-title {
