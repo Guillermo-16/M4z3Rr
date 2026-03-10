@@ -15,12 +15,11 @@ header {
   height: 200px;
   overflow: hidden;
 }
-
+/* Menu lateral de la pagina */
 .side-menu {
   position: fixed;
   top: 0; /* Pegado al borde superior */
   left: 0; /* Pegado al borde izquierdo */
-  height: 100vh; /* Ocupa toda la altura de la ventana */
   display: flex;
   transform: rotate(-90deg) translateX(-100%);
   transform-origin: top left;
@@ -29,17 +28,16 @@ header {
   z-index: 1000;
   letter-spacing: 3px;
   padding: 0 20px;
-  background: transparent; /* o puedes poner un color si quieres */
+  background: transparent;
 }
-
+/* Etiquetas "a" del menu lateral */
 .side-menu a {
   text-decoration: none;
   color: white;
-  font-size: 18px;
-  white-space: nowrap;
+  font-size: 16px;
 }
 
-/* Responsivo para móviles */
+/* Responsive para móviles */
 @media (max-width: 768px) {
   .side-menu {
     transform: rotate(0deg) translateX(0);
@@ -51,9 +49,10 @@ header {
     background: rgba(0, 0, 0, 0.7);
   }
 }
-
+/* Titulos de las secciones de la pagina */
 .box-title {
   position: relative;
+  padding-bottom: 150px;
 }
 
 .title-section {
@@ -61,33 +60,26 @@ header {
   color: white;
   top: 10px;
   right: 10px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 100px;
+  letter-spacing: 3px;
 }
 
-.global {
+.nombre {
   display: flex;
   align-items: center;
   justify-content: space-between; /* ← clave */
   padding: 0px 100px; /* margen lateral */
   color: white;
   overflow: hidden;
-}
-
-.nombre {
   text-decoration: none;
   color: white;
-  font-size: 80px;
   transition: 0.3s;
-}
-
-.box-title {
-  padding-bottom: 150px;
-}
-
-/* Logo */
-.logo {
-  font-size: 20px;
-  font-weight: bold;
-  color: #9147ff;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  font-size: 30px;
 }
 
 /* Navegación */
@@ -105,10 +97,6 @@ nav a {
 
 nav a:hover {
   color: #9147ff;
-}
-
-.login-btn:hover {
-  background-color: #772ce8;
 }
 
 .content-box {
@@ -149,27 +137,18 @@ img {
   width: 50%;
   height: 50%;
 }
-p {
+
+.bio {
+  max-width: 800px; /* Limita ancho para mejor lectura */
+  margin-top: 40px;
+  padding: 0px 100px;
   font-size: 16px; /* Tamaño estándar web */
   line-height: 1.7; /* Interlineado agradable */
   margin-bottom: 20px; /* Espacio entre párrafos */
   color: #d0d0d0;
 }
-
-h1,
-h2,
-h3 {
-  font-weight: 600;
-  margin-bottom: 20px;
-  letter-spacing: 1px;
-  font-size: 60px;
-}
-.bio {
-  max-width: 800px; /* Limita ancho para mejor lectura */
-  margin-top: 40px;
-}
 a {
-  color: #9147ff;
+  color: white;
   text-decoration: none;
   font-weight: 500;
   transition: 0.3s;
