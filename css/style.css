@@ -52,14 +52,13 @@ header {
 /* Titulos de las secciones de la pagina */
 .box-title {
   position: relative;
-  padding-bottom: 150px;
   min-height: 120vh; /* altura de cada sección */
 
 }
 
 .title-section {
   position: sticky;
-  top: 120px; /* distancia desde arriba */
+  top: 0px; /* distancia desde arriba */
   text-align: right;
   margin-right: 50px;
 
