@@ -34,7 +34,7 @@ header {
 .side-menu a {
   text-decoration: none;
   color: white;
-  font-size: 16px;
+  font-size: 13px;
 }
 
 /* Responsive para móviles */
@@ -53,16 +53,20 @@ header {
 .box-title {
   position: relative;
   padding-bottom: 150px;
+  min-height: 120vh; /* altura de cada sección */
+
 }
 
 .title-section {
-  position: absolute;
+  position: sticky;
+  top: 120px; /* distancia desde arriba */
+  text-align: right;
+  margin-right: 50px;
+
   color: white;
-  top: 10px;
-  right: 10px;
   font-family: sans-serif;
   font-weight: lighter;
-  font-size: 100px;
+  font-size: 70px;
   letter-spacing: 3px;
 }
 
@@ -95,7 +99,7 @@ nav a {
   transition: 0.3s;
 }
 
-nav a:hover {
+a:hover {
   color: #9147ff;
 }
 
