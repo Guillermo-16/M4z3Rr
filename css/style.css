@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   background-color: black;
   color: #e5e5e5;
   line-height: 1.6; /* Interlineado global */
@@ -53,7 +53,6 @@ header {
 .box-title {
   position: relative;
   min-height: 120vh; /* altura de cada sección */
-
 }
 
 .title-section {
@@ -63,7 +62,7 @@ header {
   margin-right: 50px;
 
   color: white;
-  font-family: sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-weight: lighter;
   font-size: 70px;
   letter-spacing: 3px;
@@ -142,7 +141,9 @@ img {
   margin-bottom: 10vh;
 }
 
-.bio, .enlace, .titulo-secundario {
+.bio,
+.enlace,
+.titulo-secundario {
   max-width: 800px; /* Limita ancho para mejor lectura */
   margin-top: 40px;
   padding: 0px 100px;
@@ -152,8 +153,9 @@ img {
   color: #d0d0d0;
 }
 
-.titulo-secundario{
+.titulo-secundario {
   margin-bottom: 20vh;
+  margin-top: 20vh;
 }
 
 a {
