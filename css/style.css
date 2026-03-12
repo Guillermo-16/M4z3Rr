@@ -139,6 +139,7 @@ img {
 .portada {
   width: 50%;
   height: 50%;
+  margin-bottom: 10vh;
 }
 
 .bio, .enlace, .titulo-secundario {
@@ -158,9 +159,7 @@ img {
 a {
   color: white;
   text-decoration: none;
-  font-weight: 500;
   transition: 0.3s;
-  font-size: 25px;
 }
 
 a:hover {
