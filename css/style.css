@@ -33,7 +33,7 @@ header {
 /* Etiquetas "a" del menu lateral */
 .side-menu a {
   text-decoration: none;
-  color: white;
+  color: rgb(167, 167, 167);
   font-size: 13px;
 }
 
@@ -61,11 +61,11 @@ header {
   text-align: right;
   margin-right: 50px;
 
-  color: white;
+  color: grey;
   font-family: "Courier New", Courier, monospace;
-  font-weight: lighter;
-  font-size: 70px;
+  font-size: 60px;
   letter-spacing: 3px;
+  font-weight: lighter;
 }
 
 .nombre {
@@ -73,15 +73,14 @@ header {
   align-items: center;
   justify-content: space-between; /* ← clave */
   padding: 0px 100px; /* margen lateral */
-  color: white;
+  color: rgb(167, 167, 167);
   overflow: hidden;
   text-decoration: none;
-  color: white;
   transition: 0.3s;
   font-weight: 600;
   margin-bottom: 20px;
   letter-spacing: 1px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 /* Navegación */
@@ -92,7 +91,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: rgb(167, 167, 167);
   font-size: 35px;
   transition: 0.3s;
 }
@@ -120,7 +119,7 @@ img {
   bottom: 20px;
   left: 50px;
   font-size: 18px;
-  color: white;
+  color: rgb(167, 167, 167);
 }
 
 .informacion {
@@ -150,7 +149,7 @@ img {
   font-size: 16px; /* Tamaño estándar web */
   line-height: 1.7; /* Interlineado agradable */
   margin-bottom: 20px; /* Espacio entre párrafos */
-  color: #d0d0d0;
+  color: rgb(167, 167, 167);
 }
 
 .titulo-secundario {
@@ -159,7 +158,7 @@ img {
 }
 
 a {
-  color: white;
+  color: rgb(167, 167, 167);
   text-decoration: none;
   transition: 0.3s;
 }
