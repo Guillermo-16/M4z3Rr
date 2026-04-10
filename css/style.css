@@ -13,8 +13,13 @@ body {
 header {
   position: relative;
   height: 200px;
-  overflow: hidden;
 }
+
+.imagen-principal{
+ width: 100%;
+ height: 100vh;
+}
+
 /* Menu lateral de la pagina */
 .side-menu {
   position: fixed;
@@ -34,7 +39,7 @@ header {
 .side-menu a {
   text-decoration: none;
   color: rgb(167, 167, 167);
-  font-size: 13px;
+  font-size: 18px;
 }
 
 /* Responsive para móviles */
@@ -49,10 +54,15 @@ header {
     background: rgba(0, 0, 0, 0.7);
   }
 }
+main{
+  margin-top: 140vh;
+}
 /* Titulos de las secciones de la pagina */
 .box-title {
   position: relative;
   min-height: 120vh; /* altura de cada sección */
+  margin-top: 30vh;
+  
 }
 
 .title-section {
@@ -67,6 +77,9 @@ header {
   letter-spacing: 3px;
   font-weight: lighter;
 }
+.titulos-juntos{
+  display: inline;
+}
 
 .nombre {
   display: flex;
@@ -74,13 +87,12 @@ header {
   justify-content: space-between; /* ← clave */
   padding: 0px 100px; /* margen lateral */
   color: rgb(167, 167, 167);
-  overflow: hidden;
   text-decoration: none;
   transition: 0.3s;
   font-weight: 600;
   margin-bottom: 20px;
   letter-spacing: 1px;
-  font-size: 25px;
+  font-size: 100px;
 }
 
 /* Navegación */
@@ -94,10 +106,6 @@ nav a {
   color: rgb(167, 167, 167);
   font-size: 35px;
   transition: 0.3s;
-}
-
-a:hover {
-  color: #9147ff;
 }
 
 .content-box {
@@ -140,7 +148,7 @@ img {
   margin-bottom: 10vh;
 }
 
-.bio,
+
 .enlace,
 .titulo-secundario {
   max-width: 800px; /* Limita ancho para mejor lectura */
@@ -154,9 +162,25 @@ img {
 
 .titulo-secundario {
   margin-bottom: 20vh;
-  margin-top: 20vh;
 }
 
+.bio{
+  max-width: 1500px; /* Limita ancho para mejor lectura */
+  padding: 0px 100px;
+  color: rgb(167, 167, 167);
+}
+
+.referencia-externa{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.bio-titulo{
+  font-size: 40px;
+  padding: 0px 100px;
+  line-height: 1.7;
+  color: rgb(167, 167, 167);
+}
 a {
   color: rgb(167, 167, 167);
   text-decoration: none;
@@ -167,6 +191,6 @@ a:hover {
   opacity: 0.7;
 }
 .bio p {
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.8;
 }
