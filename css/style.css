@@ -12,7 +12,8 @@ body {
 
 header {
   position: relative;
-  height: 200px;
+  height: 380px;
+
 }
 
 .imagen-principal{
@@ -39,7 +40,7 @@ header {
 .side-menu a {
   text-decoration: none;
   color: rgb(167, 167, 167);
-  font-size: 18px;
+  font-size: 13px;
 }
 
 /* Responsive para móviles */
@@ -74,12 +75,11 @@ main{
   top: 0px; /* distancia desde arriba */
   text-align: right;
   margin-right: 50px;
-  margin-left: 50px;
 
 
   color: grey;
   font-family: "Courier New", Courier, monospace;
-  font-size: 60px;
+  font-size: 50px;
   letter-spacing: 3px;
   font-weight: lighter;
 }
