@@ -65,11 +65,17 @@ main{
   
 }
 
-.title-section {
+.titulos-juntos {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
   position: sticky;
   top: 0px; /* distancia desde arriba */
   text-align: right;
   margin-right: 50px;
+  margin-left: 50px;
+
 
   color: grey;
   font-family: "Courier New", Courier, monospace;
@@ -77,8 +83,10 @@ main{
   letter-spacing: 3px;
   font-weight: lighter;
 }
-.titulos-juntos{
-  display: inline;
+
+.titulo-secundario {
+  padding: 0px 100px;
+  font-size: 20px;
 }
 
 .nombre {
@@ -149,8 +157,7 @@ img {
 }
 
 
-.enlace,
-.titulo-secundario {
+.enlace {
   max-width: 800px; /* Limita ancho para mejor lectura */
   margin-top: 40px;
   padding: 0px 100px;
@@ -158,10 +165,6 @@ img {
   line-height: 1.7; /* Interlineado agradable */
   margin-bottom: 20px; /* Espacio entre párrafos */
   color: rgb(167, 167, 167);
-}
-
-.titulo-secundario {
-  margin-bottom: 20vh;
 }
 
 .bio{
@@ -196,8 +199,10 @@ a:hover {
 }
 
 footer{
-background:black;
-color:white;
-padding:40px;
-text-align:center;
+  font-size: 20px;
+  background:black;
+  color:white;
+  padding:40px;
+  text-align:center;
+  color: rgb(167, 167, 167);
 }
