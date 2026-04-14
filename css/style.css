@@ -79,14 +79,15 @@ main{
 
   color: grey;
   font-family: "Courier New", Courier, monospace;
-  font-size: 50px;
+  font-size: 33px;
   letter-spacing: 3px;
   font-weight: lighter;
 }
 
 .titulo-secundario {
   padding: 0px 100px;
-  font-size: 20px;
+  font-size: 15px;
+  align-items: start;
 }
 
 .nombre {
