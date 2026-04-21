@@ -243,6 +243,11 @@ footer {
     padding: 0 24px;
   }
 
+  .box-title {
+  min-height: 80vh;
+  margin-top: 30vh;
+}
+
   .enlace {
     padding: 0 24px;
     max-width: 100%;
