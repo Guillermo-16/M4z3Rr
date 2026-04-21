@@ -218,18 +218,18 @@ footer {
   }
 
   .side-menu a {
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: 2px;
   }
 
-  /* H1 de 100px desborda en pantallas pequeñas */
   .nombre {
     font-size: 52px;
     padding: 0 24px;
   }
 
   .titulo-secundario {
-    padding: 0 24px;
+    padding: 0 24px ;
+    margin-top: 20px;
   }
 
   /* Portadas fijas 650px → fluidas */
@@ -260,7 +260,7 @@ footer {
   }
 
   .imagen-secundaria {
-    width: 100%;
+    width: 90%;
   }
 
   .bio {
