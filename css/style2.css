@@ -244,8 +244,8 @@ footer {
   }
 
   .box-title {
-  min-height: 10vh;
-  margin-top: 1vh;
+  min-height: 100vh;
+  margin-top: 5vh;
 }
 
   .enlace {
