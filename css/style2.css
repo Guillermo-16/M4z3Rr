@@ -223,7 +223,7 @@ footer {
   }
 
   .nombre {
-    font-size: 52px;
+    font-size: 48px;
     padding: 0 24px;
   }
 
@@ -266,6 +266,7 @@ footer {
 
   .imagen-secundaria {
     width: 90%;
+    margin-bottom: 30vh;
   }
 
   .bio {
