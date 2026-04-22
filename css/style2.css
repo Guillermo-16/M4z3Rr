@@ -230,6 +230,8 @@ footer {
   .titulo-secundario {
     padding: 0 24px ;
     margin-top: 20px;
+    font-size: 12px;
+    text-align: left;
   }
 
   /* Portadas fijas 650px → fluidas */
@@ -246,7 +248,7 @@ footer {
   .box-title {
   min-height: 100vh;
   margin-top: 5vh;
-}
+  }
 
   .enlace {
     padding: 0 24px;
