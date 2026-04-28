@@ -46,7 +46,8 @@ header {
 
 .side-menu a {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  font-weight: bold;
+  color: rgb(75, 75, 75);
   font-size: 13px;
 }
 
