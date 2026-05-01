@@ -211,7 +211,6 @@ footer {
    RESPONSIVE — MÓVIL (max-width: 768px)
    ============================================ */
 @media (max-width: 768px) {
-
   /* Menú lateral: se mantiene rotado pero con texto más grande para ser legible */
   .side-menu {
     gap: 20px;
@@ -229,13 +228,13 @@ footer {
   }
 
   .titulo-secundario {
-    padding: 0 24px ;
+    padding: 0 24px;
     margin-top: 20px;
     font-size: 8px;
     text-align: left;
   }
 
-  .dj{
+  .dj {
     font-size: 20px;
   }
 
@@ -251,8 +250,8 @@ footer {
   }
 
   .box-title {
-  min-height: 100vh;
-  margin-top: 5vh;
+    min-height: 50vh;
+    margin-top: 5vh;
   }
 
   .enlace {
